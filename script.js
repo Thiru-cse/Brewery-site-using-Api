@@ -21,10 +21,6 @@ function displayBrewery(brewery){
     const createDiv = document.createElement("div");
     createDiv.setAttribute("class","brewery");
     createDiv.innerHTML = `
-    <div class="list" id="list>
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">${brewery.name}</h5>
@@ -34,11 +30,6 @@ function displayBrewery(brewery){
             <a href="#" class="btn btn-primary">Call: ${brewery.phone===null? "NA":brewery.phone}</a>
           </div>
         </div>
-      </div>
-      </container>
-      </div>
-
-      
       `;
 
       document.body.append(createDiv);
