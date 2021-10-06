@@ -23,7 +23,7 @@
 .navbar .navbar-brand{
     font-size: 25px;
    font-weight: bold;
-   font-family: 'Condiment', cursive;
+   color: rgb(0, 195, 255) !important;
 }
 
 #navbarSupportedContent a{
