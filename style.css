@@ -118,10 +118,13 @@ section{
     font-weight: 600;
 }
 .card-body{
-    background-color: rgb(190, 145, 21);
+    background-color: rgb(54, 18, 18);
 }
 
-#list .card .card-subtitle{
-    color: rgb(31, 65, 139) !important;
-    font-weight: 300 !important;
+.card-title{
+    color: white !important;
+}
+
+.card-text{
+    color: yellowgreen;
 }
