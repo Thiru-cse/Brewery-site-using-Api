@@ -51,6 +51,7 @@ section{
     background-position: center;
     background-color: rgb(54, 18, 18);
     flex-direction: column;
+
 }
 
 #home h1{
@@ -75,7 +76,7 @@ section{
     height: 40px;
 }
 
-/* About */
+/* Menu Section */
 
 #menu{
     background: rgb(54, 18, 18);
@@ -107,6 +108,7 @@ section{
 }
 
 /* List Section */
+
 #list {
     background: rgb(54, 18, 18);
 }
